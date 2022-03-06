@@ -25,12 +25,13 @@ To run this script you need to install locally on your machine the following dep
 ## Features
 
 - [x] Docker / Docker Compose
-- [ ] Postgres
+- [x] Postgres
+- [x] TypeORM
 - [ ] Redis
 - [ ] Product Module
 - [ ] User Module
 - [ ] Authentication Module
-- [ ] purchase orders Module
+- [ ] Purchase orders Module
 - [ ] Clients Module
 - [ ] User password management
 - [ ] User profile management
