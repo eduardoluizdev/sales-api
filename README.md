@@ -20,7 +20,7 @@ To run this script you need to install locally on your machine the following dep
 
 ## Endpoints
 
-...
+- Products - `http://localhost:3333/products`
 
 ## Features
 
@@ -28,7 +28,7 @@ To run this script you need to install locally on your machine the following dep
 - [x] Postgres
 - [x] TypeORM
 - [ ] Redis
-- [ ] Product Module
+- [x] Product Module
 - [ ] User Module
 - [ ] Authentication Module
 - [ ] Purchase orders Module
