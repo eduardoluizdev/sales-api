@@ -17,6 +17,8 @@ To run this script you need to install locally on your machine the following dep
 ## Running
 
 1. Open `project` folder and run `docker-compose up`;
+2. In terminal: `cd /src/config` and execute `cp auth.exemple.ts auth.ts`;
+2.2 Read the instructions at the `auth.ts`and fill in what is needed;
 
 ## Endpoints
 

@@ -8,6 +8,7 @@ coverage
 ormconfig.json
 dist
 .docker/dbdata
+src/config/auth.ts
 
 uploads/*
 !uploads/.gitkeep
