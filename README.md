@@ -31,8 +31,8 @@ To run this script you need to install locally on your machine the following dep
 - [x] TypeORM
 - [ ] Redis
 - [x] Product Module
-- [ ] User Module
-- [ ] Authentication Module
+- [x] User Module
+- [x] Authentication Module
 - [ ] Purchase orders Module
 - [ ] Clients Module
 - [ ] User password management

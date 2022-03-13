@@ -1,3 +1,4 @@
+import uploadConfig from '@config/upload';
 import AppError from '@shared/errors/AppError';
 import '@shared/typeorm';
 import { errors } from 'celebrate';
@@ -11,7 +12,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-
+app.use('/public', express.static(uploadConfig.directory));
 app.use(routes);
 
 app.use(errors());
