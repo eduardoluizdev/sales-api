@@ -8,6 +8,10 @@ To run this script you need to install locally on your machine the following dep
 
 - Node.js;
 - Express;
+- Jest;
+- Celebrate;
+- Multer;
+- Handlebars
 - Postgres;
 - Redis;
 - TypeORM;
@@ -29,11 +33,14 @@ To run this script you need to install locally on your machine the following dep
 - [x] Docker / Docker Compose
 - [x] Postgres
 - [x] TypeORM
-- [ ] Redis
 - [x] Product Module
 - [x] User Module
+- [x] Profile Module
 - [x] Authentication Module
+- [x] User password management
+- [x] User profile management
 - [ ] Purchase orders Module
 - [ ] Clients Module
-- [ ] User password management
-- [ ] User profile management
+- [ ] Redis
+- [ ] Tests
+
