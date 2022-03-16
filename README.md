@@ -8,10 +8,17 @@ To run this script you need to install locally on your machine the following dep
 
 - Node.js;
 - Express;
+- Typescript;
+- ESLint;
+- Prettier;
 - Jest;
 - Celebrate;
 - Multer;
-- Handlebars
+- CORS;
+- JWT;
+- BCrypt;
+- Nodemailer;
+- Handlebars;
 - Postgres;
 - Redis;
 - TypeORM;
@@ -27,6 +34,11 @@ To run this script you need to install locally on your machine the following dep
 ## Endpoints
 
 - Products - `http://localhost:3333/products`
+- Users - `http://localhost:3333/users`
+- Sessions - `http://localhost:3333/sessions`
+- Forgot Password - `http://localhost:3333/password/forgot`
+- Reset Password - `http://localhost:3333/password/reset`
+- Profile - `http://localhost:3333/profile`
 
 ## Features
 
