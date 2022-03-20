@@ -22,7 +22,8 @@
     "nodemailer": "^6.7.2",
     "pg": "^8.7.3",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.2.45"
+    "typeorm": "^0.2.45",
+    "typeorm-pagination": "^2.0.3"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
