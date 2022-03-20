@@ -52,7 +52,7 @@ To run this script you need to install locally on your machine the following dep
 - [x] User password management
 - [x] User profile management
 - [x] Customer Module
-- [ ] Purchase orders Module
+- [x] Purchase orders Module
 - [ ] Redis
 - [ ] Tests
 
