@@ -36,7 +36,7 @@ class User {
   getAvatarUrl(): string | null {
     if (!this.avatar) return null;
 
-    return `${process.env.APP_API_URL}/public/${this.avatar}`;
+    return `${process.env.AVATAR_URL}/${this.avatar}`;
   }
 }
 
