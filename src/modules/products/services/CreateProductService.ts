@@ -19,15 +19,13 @@ class CreateProductService {
       throw new AppError('There is already one product with this name');
     }
 
-    const redisCache = new RedisCache();
-
     const product = productsRepository.create({
       name,
       price,
       quantity,
     });
 
-    await redisCache.invalidate('api-sales-PRODUCT_LIST');
+    await RedisCache.invalidate('api-sales-PRODUCT_LIST');
 
     await productsRepository.save(product);
 
