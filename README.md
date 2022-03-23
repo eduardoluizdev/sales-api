@@ -53,6 +53,7 @@ To run this script you need to install locally on your machine the following dep
 - [x] User profile management
 - [x] Customer Module
 - [x] Purchase orders Module
-- [ ] Redis
+- [x] Redis
+- [ ] Refactor DDD/SOLID
 - [ ] Tests
 
