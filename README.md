@@ -54,6 +54,6 @@ To run this script you need to install locally on your machine the following dep
 - [x] Customer Module
 - [x] Purchase orders Module
 - [x] Redis
-- [ ] Refactor DDD/SOLID
+- [x] Refactor DDD/SOLID
 - [ ] Tests
 
