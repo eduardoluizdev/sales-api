@@ -8,9 +8,11 @@ import ListCostumerService from '@modules/customers/services/ListCostumerService
 
 export default class CustomersController {
   public async index(request: Request, response: Response): Promise<Response> {
-    const listCustomers = container.resolve(ListCostumerService);
+    const page = request.query.page ? Number(request.query.page) : 1;
+    const limit = request.query.limit ? Number(request.query.limit) : 15;
 
-    const customers = await listCustomers.execute();
+    const listCustomers = container.resolve(ListCostumerService);
+    const customers = await listCustomers.execute({ page, limit });
 
     return response.json(customers);
   }

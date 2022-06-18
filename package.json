@@ -33,8 +33,7 @@
     "redis": "^4.0.4",
     "reflect-metadata": "^0.1.13",
     "tsyringe": "^4.6.0",
-    "typeorm": "^0.2.45",
-    "typeorm-pagination": "^2.0.3",
+    "typeorm": "^0.3.6",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
